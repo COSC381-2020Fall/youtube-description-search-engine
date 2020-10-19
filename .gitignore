@@ -1,5 +1,6 @@
 *.json
 .vscode
+videoids.txt
 config-filled.py
 
 # Byte-compiled / optimized / DLL files
