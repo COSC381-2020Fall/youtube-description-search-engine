@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>search</title>
+    </head>
+    <body>
+        <!-- we need to present the search results here -->
+        {% for item in results %}
+            <p>{{ item.url }}</p>
+            <p>{{ item.description }}</p>
+        {% endfor %}
+    </body>
+</html>
